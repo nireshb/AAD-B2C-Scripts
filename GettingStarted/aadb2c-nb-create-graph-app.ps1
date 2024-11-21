@@ -1,6 +1,6 @@
 # Bind to Azure AD
 $displayName = "B2C-Graph-App"
-$TenantName = "a73csygrwfojk.onmicrosoft.com"
+$TenantName = "nesidonline.onmicrosoft.com"
 $DisplayName = "B2C-Graph-App" 
 
 az config set core.login_experience_v2=off
