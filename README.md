@@ -1,20 +1,6 @@
-# Azure Active Directory B2C: Sample Scripts
+#Use the below steps to configure
 
-In this repo, you will find sample scripts related to the administration and use of Azure AD B2c.
-
-## Language Customisation
-- [Convert Language files using Azure Cognative API](/ConvertLanguage) This sample script uses the [Azure Cognative API](https://www.microsoft.com/en-us/translator/) This sample web test shows how to run tests and monitor results of B2C sign in's, using Azure Application Insights.) to convert Built-In language files form one language to another.
-- [Convert from Built-In Language files to IEF](/BultInLangtoCustLang) This script converts the language file format from Built-In to that required for Identitiy Experience Framework policies.
-
-## Getting Started
-- Scripts to [automate setting up a new B2C tenant](/GettingStarted). These scripts will prepare your B2C tenant to be ready for testing in seconds:
-    - Create a B2C GraphApp for scripting
-    - Create the Token Signing and Encryption keys
-    - Create the IdentityExperienceFramework apps
-    - Download/Modify/Upload the [B2C Starter Pack](https://github.com/Azure-Samples/active-directory-b2c-custom-policy-starterpack)
-    - Create a test WebApp so you can test your first signup/signin
-
-## Community Help and Support
-Use [Stack Overflow](https://stackoverflow.com/questions/tagged/azure-ad-b2c) to get support from the community. Ask your questions on Stack Overflow first and browse existing issues to see if someone has asked your question before. Make sure that your questions or comments are tagged with [azure-ad-b2c].
-If you find a bug in the sample, please raise the issue on [GitHub Issues](https://github.com/azure-ad-b2c/samples/issues).
-To provide product feedback, visit the Azure Active Directory B2C [Feedback page](https://feedback.azure.com/forums/169401-azure-active-directory?category_id=160596).
+Deploy Azure B2C tenant using https://github.com/nireshb/azure-b2c-infracode 
+Configure B2C tenant using https://github.com/nireshb/AAD-B2C-Scripts , https://github.com/nireshb/AAD-B2C-Scripts/blob/master/GettingStarted/aadb2c-nb-start.ps1 
+Create static website for custom flows https://github.com/nireshb/DDNSRegister.AzureB2C.Web 
+Deploy static content to customer website using https://github.com/nireshb/DDNSRegister.AzureB2C.StaticWeb 
